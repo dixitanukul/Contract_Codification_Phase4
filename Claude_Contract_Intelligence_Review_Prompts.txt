@@ -1,0 +1,714 @@
+
+CLAUDE REVIEW PROMPT SUITE — BSC CONTRACT INTELLIGENCE PLATFORM
+================================================================
+
+OBJECTIVE
+---------
+These prompts are designed to perform a complete enterprise-grade review of the Blue Shield of California Contract Intelligence Platform.
+
+The goals are:
+- Maximize retrieval quality
+- Preserve analytical depth
+- Improve trustworthiness
+- Improve demo readiness
+- Improve performance WITHOUT quality degradation
+- Improve enterprise credibility
+- Improve scalability and maintainability
+- Detect architectural weaknesses
+- Detect hallucination risks
+- Detect retrieval weaknesses
+- Detect demo risks
+- Ensure the frontend notebook fully utilizes the complete backend platform
+
+IMPORTANT GLOBAL RULES
+----------------------
+1. Never optimize by reducing analytical quality.
+2. Never reduce retrieval depth to gain speed.
+3. Never oversimplify legal reasoning.
+4. Prioritize correctness over latency.
+5. Prioritize explainability over cleverness.
+6. Every recommendation must preserve or improve answer quality.
+7. Be brutally honest.
+8. Give implementation-level recommendations.
+9. Assume this will be shown to executive leadership.
+10. Evaluate both engineering quality and business credibility.
+
+================================================================
+PROMPT 1 — COMPLETE SYSTEM UNDERSTANDING
+================================================================
+
+You are reviewing a production-grade healthcare provider contract intelligence platform built for Blue Shield of California.
+
+Your first task is to deeply understand the COMPLETE platform before making recommendations.
+
+You must understand:
+- End-to-end architecture
+- Every pipeline stage
+- Every table
+- Data lineage
+- Retrieval architecture
+- Reimbursement architecture
+- Amendment/state modeling
+- Semantic retrieval
+- Vector search
+- Hybrid retrieval
+- Intelligence generation
+- Evaluation framework
+- Demo notebook architecture
+- User interaction flow
+
+I will provide all files incrementally.
+
+Your responsibilities:
+1. Build a complete mental model of the platform
+2. Understand architectural intent
+3. Understand all dependencies
+4. Trace all data flows
+5. Identify foundational vs derived components
+6. Understand retrieval orchestration
+7. Understand legal semantic modeling
+8. Understand reimbursement modeling
+9. Understand temporal/amendment handling
+10. Understand how the frontend notebook consumes the backend
+
+For EVERY file:
+- Explain purpose
+- Explain inputs
+- Explain outputs
+- Explain dependencies
+- Explain downstream consumers
+- Explain business value
+- Explain technical value
+- Explain retrieval value
+- Explain demo value
+- Explain scalability implications
+- Explain quality implications
+- Explain risks
+- Explain redundancies
+
+DO NOT optimize yet.
+DO NOT redesign yet.
+ONLY understand and map the system.
+
+At the end provide:
+1. End-to-end architecture map
+2. Pipeline flow diagram
+3. Table lineage map
+4. Retrieval flow map
+5. Intelligence flow map
+6. Frontend notebook dependency graph
+7. Critical-path components
+8. Highest-risk components
+9. Demo-critical components
+10. Retrieval-critical components
+
+================================================================
+PROMPT 2 — END-TO-END ARCHITECTURE CRITIQUE
+================================================================
+
+Perform a COMPLETE architecture critique of the entire platform.
+
+Evaluate:
+- Data architecture
+- Delta architecture
+- Retrieval architecture
+- Semantic architecture
+- RAG architecture
+- Vector search architecture
+- State engine architecture
+- Reimbursement architecture
+- Intelligence architecture
+- Evaluation architecture
+- Frontend architecture
+- Scalability
+- Reliability
+- Explainability
+- Maintainability
+- Production readiness
+- Enterprise readiness
+
+Evaluate each layer independently:
+1. Ingestion layer
+2. Extraction layer
+3. State engine layer
+4. Reimbursement layer
+5. Legal chunking layer
+6. Retrieval layer
+7. Hybrid search layer
+8. Reranking layer
+9. Intelligence layer
+10. Evaluation layer
+11. Demo notebook layer
+12. User interaction layer
+
+For EACH layer provide:
+- Purpose
+- Strengths
+- Weaknesses
+- Architectural risks
+- Technical debt
+- Scalability concerns
+- Retrieval concerns
+- Accuracy concerns
+- Maintainability concerns
+- Demo concerns
+- Production concerns
+
+Then provide:
+1. Top 20 architectural risks
+2. Top 20 improvement opportunities
+3. Enterprise-grade components
+4. Prototype-grade components
+5. Overengineered components
+6. Underengineered components
+7. Unnecessary complexity
+8. Missing capabilities
+9. Demo failure risks
+10. Retrieval precision risks
+11. Retrieval recall risks
+12. Latency bottlenecks
+13. Hallucination pathways
+14. Trustworthiness concerns
+15. Scalability bottlenecks
+
+Finally provide:
+- Immediate fixes
+- Medium-term fixes
+- Long-term platform evolution
+
+IMPORTANT:
+Never sacrifice answer quality for performance.
+
+================================================================
+PROMPT 3 — COMPLETE TABLE-BY-TABLE REVIEW
+================================================================
+
+Perform a COMPLETE table-by-table review of the entire platform.
+
+For EVERY table:
+- Explain purpose
+- Explain why it exists
+- Explain upstream dependencies
+- Explain downstream consumers
+- Explain whether it is foundational or derived
+- Explain whether it is actually valuable
+- Explain whether it improves retrieval quality
+- Explain whether it improves explainability
+- Explain whether it improves intelligence quality
+- Explain whether it improves demo quality
+- Explain whether it introduces technical debt
+
+Evaluate:
+- Schema quality
+- Naming quality
+- Data typing
+- Primary keys
+- Foreign keys
+- Duplication
+- Denormalization
+- Partitioning
+- Delta suitability
+- Query efficiency
+- Vector suitability
+- Retrieval suitability
+- Amendment handling
+- Temporal handling
+
+For EACH table provide:
+1. Business value
+2. Technical value
+3. Retrieval value
+4. Intelligence value
+5. Demo value
+6. Risks
+7. Optimizations
+8. Whether it should remain
+9. Whether it should change
+10. Whether it should merge/split
+
+Then provide:
+- Highest-value tables
+- Lowest-value tables
+- Most expensive tables
+- Most important lineage chains
+- Tables causing unnecessary complexity
+- Tables suitable for materialization
+- Tables suitable for incrementalization
+- Tables suitable for streaming
+
+================================================================
+PROMPT 4 — STATE ENGINE DEEP REVIEW
+================================================================
+
+Perform a DEEP review of the V2 state engine.
+
+Evaluate:
+- Contract registry modeling
+- Amendment registry modeling
+- Scope classification
+- Temporal logic
+- Current-state reconstruction
+- Historical reconstruction
+- Amendment supersession logic
+- Effective-date handling
+- State transitions
+- Amendment lineage
+- Deterministic vs heuristic logic
+- Confidence scoring
+- Legal defensibility
+- Explainability
+
+Determine whether the state engine can reliably answer:
+- Current contract state
+- Historical contract state
+- Amendment history
+- Which clauses are active
+- Which rates are superseded
+- Which provisions are valid today
+- Which amendments override others
+
+Critique:
+- Correctness
+- Reliability
+- Scalability
+- Maintainability
+- Retrieval integration
+- Intelligence integration
+- Demo readiness
+
+Then provide:
+1. Weaknesses
+2. Missing concepts
+3. Risks of incorrect reconstruction
+4. Hallucination pathways
+5. Better modeling approaches
+6. Enterprise redesign recommendations
+7. Production-hardening recommendations
+8. Performance optimizations WITHOUT quality loss
+
+================================================================
+PROMPT 5 — REIMBURSEMENT ENGINE REVIEW
+================================================================
+
+Perform a COMPLETE review of the reimbursement architecture.
+
+Evaluate:
+- Rate rule modeling
+- Formula modeling
+- Formula JSON design
+- Stop-loss modeling
+- Carve-out modeling
+- Escalator modeling
+- Lesser-of modeling
+- Capitation modeling
+- Domain classification
+- Service-line normalization
+- Financial correctness
+- Extensibility
+
+Determine:
+- Whether reimbursement logic is actually computable
+- Whether rates are operationally usable
+- Whether formulas are expressive enough
+- Whether future claims integration is supported
+- Whether benchmarking is reliable
+- Whether intelligence outputs are trustworthy
+
+Critique:
+- Formula abstraction quality
+- JSON modeling quality
+- Healthcare reimbursement fidelity
+- Maintainability
+- Retrieval usefulness
+- Intelligence usefulness
+
+Then provide:
+1. Enterprise-grade reimbursement architecture
+2. Claims integration roadmap
+3. Pricing engine roadmap
+4. Scenario modeling roadmap
+5. Simulation architecture
+6. Performance improvements WITHOUT quality loss
+
+================================================================
+PROMPT 6 — LEGAL CHUNKING + VECTOR REVIEW
+================================================================
+
+Perform a COMPLETE review of the legal chunking and semantic representation layer.
+
+Evaluate:
+- Legal unit definition
+- Chunk granularity
+- Semantic density
+- Context preservation
+- Clause segmentation
+- Definition handling
+- Amendment delta handling
+- Retrieval chunking strategy
+- Embedding suitability
+- Citation quality
+- Provenance preservation
+- Hallucination resistance
+
+Analyze:
+- Whether chunking loses legal meaning
+- Whether chunks are too large/small
+- Whether retrieval context is sufficient
+- Whether chunk boundaries are semantically valid
+- Whether amendment relationships are preserved
+- Whether legal reasoning quality is preserved
+
+Then recommend:
+1. Optimal chunking strategy
+2. Hierarchical chunking
+3. Parent-child retrieval
+4. Context stitching
+5. Multi-resolution retrieval
+6. Metadata enrichment
+7. Citation improvements
+8. Embedding improvements
+9. Precision improvements
+10. Recall improvements
+11. Latency optimizations WITHOUT quality loss
+
+================================================================
+PROMPT 7 — HYBRID RETRIEVAL ENGINE REVIEW
+================================================================
+
+Perform a COMPLETE review of the hybrid retrieval architecture.
+
+Evaluate:
+- Semantic retrieval
+- Lexical retrieval
+- Metadata retrieval
+- Structural retrieval
+- Query understanding
+- Reciprocal Rank Fusion
+- Filtering logic
+- Temporal filtering
+- Provider filtering
+- Retrieval scoring
+- Retrieval orchestration
+- Channel blending
+
+Critically analyze:
+- Retrieval precision
+- Retrieval recall
+- Ranking quality
+- Noise handling
+- Ambiguous query handling
+- Long-tail query handling
+- Legal query understanding
+- Numerical query handling
+- Amendment-aware retrieval
+- Current-state retrieval
+- Retrieval explainability
+
+Determine whether the retrieval system supports:
+- Executive users
+- Legal users
+- Contract analysts
+- Reimbursement analysts
+- Finance users
+- Strategy users
+
+Then provide:
+1. Retrieval redesign recommendations
+2. Cross-encoder reranking strategy
+3. Better fusion techniques
+4. Query planning improvements
+5. Metadata weighting improvements
+6. Context assembly improvements
+7. Temporal retrieval improvements
+8. Amendment-aware retrieval improvements
+9. Enterprise-grade retrieval roadmap
+10. Optimizations WITHOUT quality loss
+
+================================================================
+PROMPT 8 — COMPLETE REVIEW OF Contract_Intelligence_Demo NOTEBOOK
+================================================================
+
+THIS IS THE MOST IMPORTANT REVIEW.
+
+The Contract_Intelligence_Demo notebook is acting as the frontend leadership demo interface for the entire platform.
+
+Perform an EXTREMELY DEEP review.
+
+Evaluate:
+- User experience
+- Leadership demo impact
+- Architecture utilization
+- Retrieval quality
+- Intelligence quality
+- Visual storytelling
+- Scalability
+- Latency
+- Correctness
+- Trustworthiness
+- Explainability
+- Enterprise polish
+- Technical credibility
+- Business credibility
+
+Determine:
+- Whether the notebook truly showcases the FULL backend power
+- Whether the notebook underutilizes the platform
+- Whether the notebook demonstrates enterprise-grade intelligence
+- Whether the notebook answers questions reliably
+- Whether the notebook is vulnerable during live demo
+- Whether the notebook gives leadership confidence
+- Whether it looks like a prototype or enterprise platform
+
+Review EVERY SECTION:
+1. KPI dashboard
+2. Portfolio analytics
+3. Agreement analytics
+4. Vector search integration
+5. LLM orchestration
+6. Deep analysis engine
+7. Question understanding
+8. Execution planning
+9. Taxonomy generation
+10. Hybrid retrieval
+11. Classification pipeline
+12. Provider rollup
+13. HTML report generation
+14. Demo examples
+15. Leadership talking points
+
+Then perform a DEEP review of the “Ask Anything” engine.
+
+Evaluate:
+- Query understanding quality
+- Prompt quality
+- Taxonomy generation quality
+- Retrieval orchestration
+- Classification reliability
+- Parallelization strategy
+- Failure handling
+- False-positive handling
+- False-negative handling
+- Dedup logic
+- Explainability
+- Citation quality
+- Provider rollup correctness
+- Mixed-state detection
+- Temporal awareness
+- Performance
+- UI polish
+- Executive readiness
+
+Determine:
+- Whether this can genuinely answer enterprise healthcare contract questions
+- Whether results are trustworthy
+- Whether hallucination pathways exist
+- Whether retrieval is robust
+- Whether prompting is production-grade
+- Whether reporting is convincing
+- Whether logic is defensible
+
+Then provide:
+1. Everything wrong with the notebook
+2. Everything impressive about the notebook
+3. Biggest architectural weaknesses
+4. Biggest demo risks
+5. Biggest opportunities
+6. Hidden technical debt
+7. Retrieval weaknesses
+8. Prompt weaknesses
+9. Scalability issues
+10. UI/UX weaknesses
+11. Reliability issues
+12. Executive-demo concerns
+13. What leadership will love
+14. What leadership may question
+15. What could fail live
+16. What most impacts trust
+17. What most impacts wow-factor
+18. What most impacts perceived intelligence
+
+Then redesign the notebook conceptually into:
+- A world-class executive AI contract intelligence experience
+- WITHOUT sacrificing analytical depth
+- WITHOUT reducing retrieval rigor
+- WITHOUT oversimplifying intelligence
+
+Finally provide:
+1. Exact engineering improvements
+2. Exact retrieval improvements
+3. Exact prompting improvements
+4. Exact UI improvements
+5. Exact demo-flow improvements
+6. Exact performance improvements
+7. Exact caching improvements
+8. Exact concurrency improvements
+9. Exact reliability improvements
+10. Exact hallucination protections
+11. Exact trust improvements
+12. Exact evaluation metrics
+13. Exact production-hardening recommendations
+
+IMPORTANT:
+Never simplify the system just to gain speed.
+
+================================================================
+PROMPT 9 — PROMPT ENGINEERING REVIEW
+================================================================
+
+Perform a COMPLETE review of every LLM prompt in the platform.
+
+Evaluate:
+- Prompt structure
+- Instruction hierarchy
+- Output determinism
+- Failure handling
+- JSON reliability
+- Hallucination resistance
+- Legal reasoning quality
+- Classification quality
+- Retrieval orchestration quality
+- Taxonomy generation quality
+- Query understanding quality
+- Explainability
+
+For every prompt:
+- Identify ambiguity
+- Identify hallucination pathways
+- Identify token inefficiencies
+- Identify missing constraints
+- Identify hidden assumptions
+
+Then redesign every prompt to be:
+- Enterprise-grade
+- Deterministic
+- Reliable
+- More accurate
+- More explainable
+- More robust
+
+WITHOUT reducing intelligence quality.
+
+================================================================
+PROMPT 10 — PERFORMANCE OPTIMIZATION WITHOUT QUALITY LOSS
+================================================================
+
+Perform a COMPLETE performance optimization review.
+
+IMPORTANT:
+You are NOT allowed to:
+- Reduce answer quality
+- Reduce retrieval depth
+- Reduce analytical depth
+- Oversimplify reasoning
+
+Evaluate:
+- Spark efficiency
+- SQL efficiency
+- Delta optimization
+- Vector search efficiency
+- LLM concurrency
+- Parallelization
+- Caching
+- Dedup strategies
+- Materialization opportunities
+- Driver bottlenecks
+- Pandas bottlenecks
+- Serialization overhead
+- Network overhead
+- REST API overhead
+
+Then provide:
+1. Safe optimizations
+2. Unsafe optimizations to avoid
+3. High-impact optimizations
+4. Low-risk optimizations
+5. Caching opportunities
+6. Parallelization improvements
+7. Spark-side processing opportunities
+8. Retrieval latency improvements
+9. LLM latency improvements
+10. UI rendering improvements
+11. Scalability roadmap
+12. Cost optimization WITHOUT quality loss
+
+================================================================
+PROMPT 11 — HALLUCINATION + TRUST REVIEW
+================================================================
+
+Perform a COMPLETE hallucination-risk and trustworthiness review.
+
+Analyze:
+- Retrieval grounding
+- Citation integrity
+- Missing-context risk
+- State confusion risk
+- Amendment confusion risk
+- Temporal hallucination risk
+- Numerical hallucination risk
+- Provider confusion risk
+- False-positive classification risk
+- False-negative classification risk
+- Semantic drift
+- Retrieval contamination
+- Weak grounding
+
+Then propose:
+1. Trust architecture
+2. Evidence grounding improvements
+3. Citation improvements
+4. Verification layers
+5. Confidence scoring
+6. Human-review pathways
+7. Guardrails
+8. Validation mechanisms
+9. Numerical verification
+10. Amendment verification
+11. State verification
+12. Retrieval diagnostics
+13. Hallucination detection
+14. Production trust framework
+
+================================================================
+PROMPT 12 — FINAL EXECUTIVE-GRADE EVOLUTION PLAN
+================================================================
+
+You now fully understand and reviewed the entire platform.
+
+Create the FINAL executive-grade evolution roadmap.
+
+Prioritize:
+1. Leadership demo excellence
+2. Retrieval quality
+3. Trustworthiness
+4. Enterprise credibility
+5. Performance WITHOUT quality loss
+6. Scalability
+7. Maintainability
+8. Production readiness
+9. User wow-factor
+10. Long-term platform viability
+
+Provide:
+- Immediate fixes (1-3 days)
+- Short-term evolution (1-2 weeks)
+- Medium-term evolution (1-2 months)
+- Long-term strategic roadmap
+
+Then provide:
+1. Highest ROI improvements
+2. Highest risk issues
+3. Highest demo-impact improvements
+4. Highest retrieval-impact improvements
+5. Highest trust-impact improvements
+6. Highest scalability improvements
+7. Highest executive-value features
+8. Features to avoid
+9. Technical debt priorities
+10. Production launch checklist
+11. Demo readiness checklist
+12. Enterprise readiness checklist
+13. Architecture scorecard
+14. Retrieval scorecard
+15. Demo notebook scorecard
+16. Platform maturity assessment
+17. Final brutally honest assessment
