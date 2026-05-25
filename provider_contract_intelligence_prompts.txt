@@ -1,0 +1,615 @@
+
+PROMPT 1 — MASTER PROJECT UNDERSTANDING + COMPLETE SYSTEM MAPPING
+
+You are a principal architect, staff-level data engineer, AI systems architect, enterprise solution consultant, and technical documentation expert.
+
+I am providing a complete Databricks/Snowflake/LLM-based Provider Contract Intelligence project.
+
+Your task is to completely reverse engineer and understand the ENTIRE project end-to-end.
+
+You must deeply analyze:
+- every folder
+- every notebook
+- every SQL file
+- every YAML
+- every Python file
+- every dbt model
+- every pipeline stage
+- every architecture component
+- every config
+- every dependency
+- every extraction logic
+- every transformation logic
+- every validation logic
+- every output table
+- every checkpointing mechanism
+- every orchestration pattern
+- every LLM workflow
+- every business use case
+- every API integration
+- every UI/demo notebook
+- every Genie Space dependency
+
+Your job is NOT to summarize superficially.
+
+I want you to deeply infer:
+- what business problem this solves
+- why each stage exists
+- what happens if a stage is removed
+- how the architecture evolved
+- where complexity exists
+- where technical debt exists
+- what is production-grade
+- what is experimental
+- what can break
+- what scales well
+- what does not scale
+- how reliable the architecture is
+- what the operational risks are
+- what the business value is
+
+You must explain:
+- inputs
+- outputs
+- transformations
+- orchestration
+- lineage
+- dependencies
+- storage layers
+- medallion architecture usage
+- Delta tables usage
+- LLM extraction pipeline
+- OCR/document parsing
+- chunking
+- embedding strategy
+- prompt engineering strategy
+- checkpointing
+- retry mechanisms
+- validation rules
+- reconciliation logic
+- confidence scoring
+- auditability
+- explainability
+- contract versioning
+- amendment handling
+- lineage tracking
+- entity extraction
+- normalization
+- downstream serving layers
+- Genie Space integration
+- semantic layer creation
+- notebook-based demos
+- user workflows
+
+I want you to identify:
+- all entities
+- all domains
+- all table relationships
+- all serving models
+- all business outputs
+- all KPIs
+- all metrics
+- all governance approaches
+- all optimization approaches
+
+Generate:
+1. Executive Summary
+2. Business Vision
+3. End-to-End Architecture
+4. Technical Deep Dive
+5. Data Flow
+6. LLM Pipeline Analysis
+7. Contract Lifecycle Handling
+8. Table-by-Table Documentation
+9. Folder-by-Folder Documentation
+10. Notebook-by-Notebook Documentation
+11. Pipeline Stage Breakdown
+12. Risks and Gaps
+13. Scalability Analysis
+14. Operational Readiness
+15. Production Readiness
+16. Multi-BlueShield Expansion Strategy
+17. Recommended Improvements
+18. Demo Strategy
+19. KT Guide
+20. FAQ Section leadership may ask
+
+I want EXTREME DEPTH.
+
+Do not stop at high level descriptions.
+
+Think like:
+- enterprise architect
+- consulting partner
+- CTO
+- Databricks field architect
+- AI platform reviewer
+- healthcare data platform reviewer
+
+Explain EVERYTHING.
+
+
+PROMPT 2 — COMPLETE ARCHITECTURE + DATA FLOW ANALYSIS
+
+Perform a COMPLETE ARCHITECTURE REVIEW of this Provider Contract Intelligence system.
+
+I want a full enterprise-grade architecture assessment.
+
+Generate:
+- complete architecture diagrams (textual)
+- data flow diagrams
+- orchestration flow
+- lineage flow
+- contract ingestion flow
+- extraction flow
+- validation flow
+- normalization flow
+- serving flow
+- Genie Space interaction flow
+- notebook demo flow
+- business consumption flow
+
+For EVERY stage explain:
+- purpose
+- inputs
+- outputs
+- technologies used
+- dependencies
+- scaling considerations
+- failure scenarios
+- retry logic
+- observability
+- logging
+- governance
+- optimization opportunities
+
+Explain:
+- why this architecture was likely chosen
+- alternative architectures
+- tradeoffs
+- pros/cons
+- where complexity is justified
+- where complexity is unnecessary
+
+Deeply analyze:
+- batch vs streaming choices
+- Delta Live Tables usage
+- Unity Catalog usage
+- medallion layering
+- Delta optimization
+- checkpointing strategy
+- schema evolution handling
+- contract amendment/version handling
+- AI extraction architecture
+- structured extraction methods
+- validation architecture
+- semantic serving layer
+- Genie integration architecture
+
+I want:
+- enterprise architecture level documentation
+- consulting-level recommendations
+- production-grade critique
+- operational recommendations
+- cost optimization recommendations
+- future-state architecture recommendations
+
+Create:
+1. Current State Architecture
+2. Ideal Future State Architecture
+3. Simplified Architecture View for Leadership
+4. Technical Architecture View for Engineers
+5. Business Capability Mapping
+6. Risk Heatmap
+7. Critical Dependencies
+8. Failure Points
+9. Scalability Bottlenecks
+10. Architecture Improvement Roadmap
+
+
+PROMPT 3 — COMPLETE LLM EXTRACTION + AI PIPELINE ANALYSIS
+
+Perform a COMPLETE AI/LLM PIPELINE REVIEW of this project.
+
+I want an extremely deep analysis of:
+- document understanding
+- OCR
+- parsing
+- chunking
+- extraction
+- prompt engineering
+- structured output generation
+- validation
+- reconciliation
+- confidence scoring
+- checkpointing
+- auditability
+- hallucination prevention
+- grounding
+- retry logic
+- semantic normalization
+- taxonomy mapping
+- clause extraction
+- contract intelligence generation
+
+Explain EXACTLY:
+- how contracts move through the system
+- how raw PDFs become structured intelligence
+- how clauses are identified
+- how entities are extracted
+- how amendments/versions are handled
+- how lineage is preserved
+- how extraction quality is ensured
+
+Identify:
+- all prompts
+- all extraction templates
+- all parsing logic
+- all AI orchestration logic
+- all validation logic
+- all post-processing logic
+
+Analyze:
+- model choices
+- token usage
+- latency implications
+- cost implications
+- prompt efficiency
+- extraction quality
+- hallucination risk
+- grounding mechanisms
+- deterministic vs probabilistic components
+
+I want:
+1. End-to-End AI Pipeline Breakdown
+2. Prompt Engineering Analysis
+3. Extraction Quality Analysis
+4. Hallucination Risk Analysis
+5. Validation Architecture Review
+6. Confidence Scoring Review
+7. Auditability Review
+8. Explainability Review
+9. Cost Optimization Recommendations
+10. Model Optimization Recommendations
+11. Enterprise AI Governance Recommendations
+12. AI Reliability Assessment
+13. AI Scaling Recommendations
+14. AI Observability Recommendations
+15. Production Readiness Assessment
+
+Think like:
+- GenAI platform architect
+- enterprise AI reviewer
+- LLMOps architect
+- AI governance lead
+- Databricks AI architect
+
+
+PROMPT 4 — COMPLETE TABLE + DATA MODEL + LINEAGE ANALYSIS
+
+Perform a COMPLETE DATA MODEL REVIEW of this project.
+
+I want a table-by-table, column-by-column, lineage-level analysis.
+
+For EVERY table explain:
+- purpose
+- business meaning
+- grain
+- primary keys
+- relationships
+- upstream dependencies
+- downstream consumers
+- refresh strategy
+- orchestration dependency
+- partitioning strategy
+- optimization strategy
+- governance considerations
+
+Identify:
+- fact tables
+- dimension tables
+- semantic models
+- serving models
+- normalized layers
+- denormalized layers
+- checkpoint tables
+- audit tables
+- reconciliation tables
+- extraction output tables
+- validation output tables
+
+Explain:
+- how contracts evolve through the data model
+- how lineage is maintained
+- how amendments are linked
+- how historical versions are preserved
+- how traceability is achieved
+
+Generate:
+1. Complete Data Dictionary
+2. Lineage Mapping
+3. Relationship Mapping
+4. Entity Relationship Analysis
+5. Medallion Layer Analysis
+6. Serving Layer Analysis
+7. Semantic Layer Analysis
+8. Genie Consumption Layer Analysis
+9. Data Quality Review
+10. Governance Review
+11. Optimization Review
+12. Partitioning/Performance Review
+13. Scalability Assessment
+14. Refactoring Recommendations
+
+
+PROMPT 5 — GENIE SPACE COMPLETE ANALYSIS
+
+Perform a COMPLETE ANALYSIS of the Genie Space implementation and strategy in this project.
+
+I want you to deeply explain:
+- what Genie Space is being used for
+- how it integrates into the architecture
+- what semantic models support it
+- how tables are exposed
+- what user workflows are enabled
+- how business users interact with it
+- what questions it can answer
+- what questions it cannot answer
+
+Explain:
+- strengths of Genie
+- weaknesses of Genie
+- limitations of Genie
+- hallucination risks
+- semantic risks
+- governance risks
+- user adoption considerations
+- business value
+
+Deeply compare:
+GENIE SPACE vs DEMO NOTEBOOKS
+
+Explain:
+- when to use Genie
+- when not to use Genie
+- when notebook demos are superior
+- when structured UI is superior
+- when semantic querying works well
+- when deterministic workflows are required
+
+I want:
+1. Genie Architecture
+2. Genie Semantic Layer Review
+3. Genie User Workflow Analysis
+4. Genie Strengths
+5. Genie Limitations
+6. Genie Governance Review
+7. Genie Cost Implications
+8. Genie Scaling Considerations
+9. Demo Strategy Recommendations
+10. Leadership Demo Recommendations
+11. Business Adoption Recommendations
+12. Multi-BlueShield Expansion Strategy
+13. Production Readiness Assessment
+14. Risk Assessment
+15. Future Enhancement Recommendations
+
+Also create:
+- sample executive demo questions
+- sample operational questions
+- sample analyst questions
+- sample provider questions
+- sample contracting questions
+- sample finance questions
+
+
+PROMPT 6 — COMPLETE COST ANALYSIS + FINOPS REVIEW
+
+Perform a COMPLETE COST ANALYSIS of this entire Provider Contract Intelligence platform.
+
+I want a detailed enterprise-grade FinOps review.
+
+Estimate:
+- ingestion cost
+- OCR cost
+- storage cost
+- Delta table cost
+- compute cost
+- LLM inference cost
+- vector search cost
+- embedding cost
+- orchestration cost
+- notebook execution cost
+- Genie Space cost
+- serving layer cost
+- monitoring cost
+- Unity Catalog cost
+- Databricks SQL cost
+- warehouse cost
+
+Create detailed calculations for:
+- per contract cost
+- per page cost
+- per extraction cost
+- per clause cost
+- per query cost
+- per Genie question cost
+- monthly operating cost
+- annual operating cost
+
+Explain:
+- all assumptions
+- all token calculations
+- all compute assumptions
+- concurrency assumptions
+- storage growth assumptions
+- optimization assumptions
+
+Generate:
+1. Detailed Cost Breakdown
+2. Cost Drivers
+3. Cost Hotspots
+4. LLM Token Economics
+5. Compute Utilization Analysis
+6. Storage Growth Forecast
+7. Query Cost Forecast
+8. Scaling Cost Forecast
+9. Cost Optimization Recommendations
+10. FinOps Governance Recommendations
+11. Executive ROI Analysis
+12. Multi-Client Scaling Economics
+13. Enterprise Pricing Strategy
+14. Margin Analysis
+15. Build vs Buy Analysis
+
+I want realistic enterprise-grade estimates.
+
+
+PROMPT 7 — LEADERSHIP DEMO + STORYTELLING MASTER PROMPT
+
+You are a senior enterprise solution consultant preparing a leadership demo for Blue Shield executives.
+
+Create the PERFECT leadership presentation and demo storyline for this Provider Contract Intelligence platform.
+
+The objective:
+- sell the platform internally
+- drive adoption
+- demonstrate strategic value
+- demonstrate operational value
+- demonstrate AI capability
+- position it as enterprise-transforming
+- show scalability to other Blue plans
+
+The presentation should balance:
+- business value
+- technical credibility
+- AI innovation
+- operational impact
+- scalability
+- governance
+- production readiness
+
+Create:
+1. Complete Leadership Narrative
+2. Demo Storyline
+3. Slide-by-Slide PPT Structure
+4. Executive Messaging
+5. Technical Messaging
+6. Business Messaging
+7. AI Messaging
+8. ROI Messaging
+9. Governance Messaging
+10. Scalability Messaging
+
+Explain:
+- how to start the demo
+- how to explain contracts
+- how to explain amendments
+- how to explain versioning
+- how to explain extraction
+- how to explain AI usage
+- how to explain checkpoints
+- how to explain validation
+- how to explain semantic intelligence
+- how to explain Genie
+- how to explain demo notebooks
+
+Create:
+- executive talking points
+- technical talking points
+- transition statements
+- business outcome statements
+- leadership Q&A preparation
+- objections and responses
+
+Generate:
+1. 15-minute demo version
+2. 30-minute demo version
+3. 60-minute deep dive version
+
+Include:
+- recommended screenshots
+- recommended notebook walkthrough order
+- recommended Genie questions
+- recommended business use cases
+- recommended wow moments
+
+Make this presentation feel:
+- enterprise-grade
+- production-ready
+- visionary
+- strategically important
+- scalable across healthcare plans
+
+
+PROMPT 8 — COMPLETE KT DOCUMENT GENERATION
+
+Generate a COMPLETE END-TO-END KNOWLEDGE TRANSFER DOCUMENT for this Provider Contract Intelligence project.
+
+This document should become the MASTER REFERENCE for:
+- engineers
+- architects
+- analysts
+- operations teams
+- leadership
+- onboarding teams
+- future BlueShield implementations
+
+The KT document must include:
+- business overview
+- architecture overview
+- technical deep dive
+- folder structure
+- notebook documentation
+- table documentation
+- pipeline stages
+- orchestration
+- LLM architecture
+- extraction logic
+- validation logic
+- checkpointing
+- lineage
+- governance
+- Genie integration
+- demo notebooks
+- operational procedures
+- troubleshooting
+- deployment
+- monitoring
+- scaling
+- limitations
+- future roadmap
+
+For EVERY component explain:
+- what it does
+- why it exists
+- inputs
+- outputs
+- dependencies
+- downstream impact
+- failure scenarios
+
+Generate:
+1. Executive Summary
+2. Business Context
+3. Architecture Overview
+4. End-to-End Pipeline
+5. Component-by-Component Breakdown
+6. Table-by-Table Breakdown
+7. Notebook-by-Notebook Breakdown
+8. Folder-by-Folder Breakdown
+9. Operational Guide
+10. Troubleshooting Guide
+11. Monitoring Guide
+12. Deployment Guide
+13. Scaling Guide
+14. FAQ
+15. Glossary
+16. Future Enhancements
+
+This should feel like:
+- enterprise architecture documentation
+- production runbook
+- onboarding handbook
+- consulting deliverable
+- technical reference manual
