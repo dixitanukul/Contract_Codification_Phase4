@@ -1,0 +1,7 @@
+Business problem
+What is the proposed solution and what we are trying to deliever here
+Proper Architecture diagram showing step by step stages of complete pipeline
+Stages of data and explaination of delta tables and what do they hold what is their use
+What exactly happens when a question is asked in the notebook - complete stages and process
+How are we doing verification or validation of the data, we really have to nail this
+what is the cost of building and maintaning this system give me porper cost breakup, we have to nail this too
