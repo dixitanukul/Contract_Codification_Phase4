@@ -1,0 +1,802 @@
+
+# ENTERPRISE CONTRACT INTELLIGENCE PLATFORM — COMPLETE PHASE 2 REVIEW PROMPTS
+
+These prompts are designed to systematically review and redesign an enterprise-grade healthcare contract intelligence platform built on Databricks.
+
+The prompts are intentionally broken into focused review domains so that AI models can reason deeply without becoming generic or overwhelmed.
+
+================================================================================
+PROMPT 1 — TRUST, RELIABILITY & VALIDATION AUDIT
+================================================================================
+
+You are reviewing an enterprise healthcare contract intelligence platform built on Databricks using:
+- OCR
+- LLM extraction
+- Vector search
+- Clause classification
+- Structured extraction
+- Retrieval pipelines
+- Multi-stage orchestration
+- Contract QA pipelines
+
+Your job is to critique ONLY the TRUST and VALIDATION aspects of the platform.
+
+DO NOT discuss UI or product ideas.
+
+Focus ONLY on:
+- trustworthiness
+- validation
+- statistical confidence
+- hallucination prevention
+- retrieval correctness
+- citation grounding
+- explainability
+- measurable reliability
+- enterprise confidence
+
+Executives and data science leaders are asking:
+
+“How do we KNOW this system is correct?”
+
+I want you to critique:
+- what is currently missing in typical LLM contract systems
+- why leadership would distrust outputs
+- what measurable evidence is needed
+- what statistical validation frameworks should exist
+- what evaluation methodology should exist
+- what dashboards and metrics leadership should see
+
+Specifically analyze:
+1. Retrieval validation
+2. OCR accuracy validation
+3. Structured extraction accuracy
+4. Clause classification accuracy
+5. Citation grounding validation
+6. Hallucination detection
+7. Confidence score calibration
+8. Amendment/version correctness
+9. Cross-document contradiction detection
+10. Human review workflows
+
+For EACH area provide:
+- What can go wrong
+- Failure modes
+- How to measure it
+- Metrics to track
+- Statistical methods
+- Recommended thresholds
+- How enterprises typically solve it
+
+I want:
+- Precision/recall methodology
+- Gold dataset strategy
+- Human evaluation framework
+- Benchmarking strategy
+- Confidence calibration approach
+- Retrieval Recall@K strategy
+- False positive/false negative measurement
+- Drift detection methodology
+- Adversarial testing ideas
+
+VERY IMPORTANT:
+Do not give generic AI advice.
+
+Treat this as a production healthcare/legal intelligence platform.
+
+Be concrete and technical.
+
+At the end provide:
+1. Top 10 metrics executives should see
+2. Top 10 metrics engineers should see
+3. Top 10 metrics data scientists should see
+4. A recommended “Trust Dashboard”
+5. A maturity model from Prototype → Enterprise Grade
+
+================================================================================
+PROMPT 2 — RETRIEVAL ARCHITECTURE CRITIQUE
+================================================================================
+
+You are reviewing the retrieval architecture of an enterprise contract intelligence platform.
+
+The system currently uses:
+- Databricks Vector Search
+- Chunked contract text
+- Hybrid retrieval
+- Semantic search
+- Keyword search
+- LLM reranking/classification
+- Contract-level and clause-level retrieval
+
+Critique ONLY the retrieval architecture.
+
+Focus on:
+- retrieval correctness
+- recall
+- precision
+- chunking quality
+- amendment handling
+- retrieval scalability
+- indexing strategy
+- metadata filtering
+- vector drift
+- retrieval observability
+- retrieval evaluation
+
+Analyze:
+1. Chunking strategy
+2. Metadata architecture
+3. Semantic retrieval weaknesses
+4. Keyword retrieval weaknesses
+5. Hybrid retrieval design
+6. Reranking strategy
+7. Amendment/version retrieval
+8. Cross-document retrieval
+9. Temporal retrieval
+10. Provider-level aggregation
+11. Retrieval latency
+12. Retrieval scalability
+
+I want you to identify:
+- hidden failure modes
+- retrieval blind spots
+- hallucination amplification risks
+- retrieval fragmentation issues
+- context poisoning risks
+- ranking weaknesses
+- contract supersession risks
+- semantic ambiguity risks
+
+Then design:
+- an ideal enterprise retrieval architecture
+- retrieval evaluation framework
+- retrieval observability system
+- retrieval metrics dashboard
+- retrieval regression testing system
+
+Include:
+- Recall@K
+- MRR
+- NDCG
+- semantic drift detection
+- chunk quality scoring
+- retrieval coverage scoring
+- retrieval confidence scoring
+
+At the end provide:
+1. Top retrieval risks
+2. Top retrieval metrics
+3. Ideal chunking strategy
+4. Ideal metadata model
+5. Ideal reranking architecture
+6. Ideal amendment-aware retrieval design
+
+================================================================================
+PROMPT 3 — ENTERPRISE SOFTWARE ARCHITECTURE REVIEW
+================================================================================
+
+You are reviewing the software engineering and platform architecture of a Databricks-based contract intelligence platform.
+
+The current system is notebook-centric and orchestrates:
+- OCR
+- extraction
+- retrieval
+- LLM workflows
+- validation
+- reporting
+- classification
+
+Critique the architecture like a Principal Engineer.
+
+Focus ONLY on:
+- software architecture
+- maintainability
+- modularity
+- scalability
+- deployment model
+- orchestration
+- code organization
+- testing
+- observability
+- CI/CD
+- operational reliability
+
+Identify:
+- anti-patterns
+- technical debt risks
+- notebook limitations
+- tight coupling
+- hidden operational complexity
+- scalability bottlenecks
+- failure isolation problems
+- retry logic weaknesses
+- concurrency risks
+- dependency management problems
+
+Then design:
+- a proper enterprise architecture for Phase 2
+- package structure
+- service boundaries
+- orchestration model
+- repository organization
+- config management
+- environment strategy
+- testing architecture
+- deployment architecture
+- monitoring architecture
+
+I want recommendations specifically for:
+- Databricks-native enterprise design
+- Delta Lake best practices
+- MLflow usage
+- Unity Catalog governance
+- modular Python packaging
+- workflow orchestration
+- evaluation pipelines
+- feature flags
+- prompt management
+- experiment tracking
+- audit logging
+
+At the end provide:
+1. Current maturity assessment
+2. Top architectural risks
+3. What a principal engineer would reject
+4. Ideal Phase 2 architecture
+5. Recommended repo structure
+6. Recommended runtime architecture
+7. Enterprise deployment model
+
+================================================================================
+PROMPT 4 — LLM SYSTEMS & HALLUCINATION AUDIT
+================================================================================
+
+You are reviewing the LLM orchestration layer of an enterprise healthcare contract intelligence platform.
+
+Critique ONLY:
+- LLM orchestration
+- prompting strategy
+- hallucination control
+- grounding
+- reasoning workflows
+- confidence scoring
+- citation verification
+- fallback handling
+- deterministic safeguards
+- multi-model strategy
+
+Analyze:
+1. Prompt architecture
+2. Context injection
+3. Retrieval grounding
+4. Hallucination risks
+5. Citation verification
+6. Confidence score validity
+7. Multi-step reasoning risks
+8. Cross-document reasoning
+9. Structured extraction reliability
+10. Classification reliability
+
+Identify:
+- unsafe patterns
+- hidden hallucination vectors
+- weak verification logic
+- confidence score flaws
+- unverifiable reasoning
+- prompt brittleness
+- nondeterministic failure modes
+
+Then design:
+- a robust enterprise LLM orchestration layer
+- grounding architecture
+- deterministic validation layer
+- prompt versioning system
+- evaluation framework
+- fallback architecture
+- hallucination detection system
+- confidence calibration system
+
+At the end provide:
+1. Top hallucination risks
+2. Weakest current design patterns
+3. Enterprise-grade mitigation strategies
+4. Ideal orchestration architecture
+5. Production-safe LLM patterns
+
+================================================================================
+PROMPT 5 — ENTERPRISE DATA ARCHITECTURE REVIEW
+================================================================================
+
+You are reviewing the DATA ARCHITECTURE of a healthcare contract intelligence platform built on Databricks.
+
+Critique ONLY:
+- data modeling
+- Delta Lake architecture
+- contract lineage
+- amendment modeling
+- entity modeling
+- temporal data handling
+- extraction storage
+- auditability
+- traceability
+- schema evolution
+- reproducibility
+
+The platform processes:
+- provider contracts
+- amendments
+- OCR outputs
+- chunked text
+- structured extractions
+- classifications
+- embeddings
+- retrieval metadata
+- confidence scores
+- citations
+- validation results
+
+Analyze:
+1. Contract data model
+2. Amendment/version lineage
+3. Document hierarchy modeling
+4. Clause modeling
+5. Chunk metadata modeling
+6. Extraction lineage
+7. Temporal modeling
+8. Provider identity resolution
+9. Schema evolution
+10. Delta Lake table design
+11. Partitioning strategy
+12. CDC/change tracking
+13. Historical reproducibility
+14. Auditability
+
+Critique:
+- hidden data quality risks
+- lineage gaps
+- temporal inconsistency risks
+- entity duplication risks
+- amendment supersession risks
+- extraction traceability gaps
+- reproducibility weaknesses
+
+Then design:
+- an enterprise-grade contract intelligence data model
+- ideal Delta architecture
+- bronze/silver/gold strategy
+- extraction lineage model
+- amendment graph strategy
+- contract versioning architecture
+- entity resolution framework
+- audit-ready lineage system
+
+At the end provide:
+1. Top data architecture risks
+2. Ideal enterprise contract data model
+3. Ideal amendment lineage strategy
+4. Ideal auditability strategy
+5. Recommended Delta architecture
+6. Recommended metadata standards
+
+================================================================================
+PROMPT 6 — OBSERVABILITY & AI OPERATIONS AUDIT
+================================================================================
+
+You are reviewing the observability and operational reliability of an enterprise AI contract intelligence platform.
+
+Critique ONLY:
+- monitoring
+- observability
+- alerting
+- debugging
+- runtime reliability
+- operational visibility
+- evaluation monitoring
+- AI system telemetry
+- pipeline health
+
+Analyze:
+1. Retrieval observability
+2. LLM observability
+3. OCR monitoring
+4. Extraction quality monitoring
+5. Hallucination monitoring
+6. Drift detection
+7. Pipeline failure detection
+8. SLA/SLO monitoring
+9. Cost monitoring
+10. Latency monitoring
+11. Contract coverage monitoring
+12. Evaluation regression monitoring
+
+Then design:
+- a complete enterprise observability architecture
+- AI telemetry framework
+- evaluation monitoring system
+- drift detection framework
+- hallucination monitoring
+- retrieval monitoring
+- confidence degradation monitoring
+- operational dashboards
+
+At the end provide:
+1. Top operational blind spots
+2. Top alerts that must exist
+3. Top executive dashboards
+4. Top engineering dashboards
+5. Top DS evaluation dashboards
+6. Enterprise observability architecture
+
+================================================================================
+PROMPT 7 — AI TESTING & QUALITY ENGINEERING REVIEW
+================================================================================
+
+You are reviewing the TESTING STRATEGY of a healthcare contract intelligence platform.
+
+Critique ONLY:
+- testing
+- validation
+- regression prevention
+- AI evaluation
+- reliability engineering
+- deployment safety
+
+Analyze:
+1. Unit testing
+2. Retrieval testing
+3. LLM evaluation testing
+4. OCR regression testing
+5. Extraction validation
+6. Hallucination testing
+7. Contract QA testing
+8. Amendment testing
+9. Citation verification testing
+10. Adversarial testing
+11. Load testing
+12. Scale testing
+
+Then design:
+- an enterprise AI testing architecture
+- evaluation pipelines
+- retrieval regression suites
+- hallucination test suites
+- benchmark datasets
+- adversarial datasets
+- CI/CD evaluation gates
+- deployment validation
+
+At the end provide:
+1. Top testing gaps
+2. Enterprise AI testing architecture
+3. Deployment gating strategy
+4. Regression prevention strategy
+5. Benchmarking strategy
+6. Production release strategy
+
+================================================================================
+PROMPT 8 — GOVERNANCE, SECURITY & COMPLIANCE AUDIT
+================================================================================
+
+You are reviewing the GOVERNANCE and SECURITY architecture of a healthcare contract intelligence platform.
+
+Critique ONLY:
+- governance
+- auditability
+- compliance
+- security
+- access control
+- AI governance
+- model governance
+- data governance
+
+Analyze:
+1. RBAC
+2. Unity Catalog governance
+3. PHI/PII controls
+4. Prompt logging
+5. Audit logging
+6. Data lineage
+7. Reproducibility
+8. Model version governance
+9. Prompt version governance
+10. LLM vendor risk
+11. Data retention
+12. Access auditing
+13. Human review controls
+14. Approval workflows
+
+Then design:
+- enterprise AI governance architecture
+- approval workflows
+- audit-ready architecture
+- lineage strategy
+- explainability strategy
+- reproducibility framework
+- secure deployment model
+
+At the end provide:
+1. Top governance risks
+2. Top compliance gaps
+3. Audit-readiness assessment
+4. Ideal governance architecture
+5. Ideal lineage strategy
+6. Enterprise approval workflow
+
+================================================================================
+PROMPT 9 — SCALABILITY & FUTURE ARCHITECTURE REVIEW
+================================================================================
+
+You are reviewing the LONG-TERM SCALABILITY and FUTURE EVOLUTION of a healthcare contract intelligence platform.
+
+Assume:
+- millions of contracts
+- thousands of concurrent users
+- enterprise-wide deployment
+- near-real-time ingestion
+- advanced analytics workloads
+- legal/compliance usage
+- AI-assisted workflows
+
+Critique ONLY:
+- scalability
+- future maintainability
+- platform evolution
+- architectural flexibility
+- operational scaling
+- multi-team development
+
+Analyze:
+1. Compute scaling
+2. Retrieval scaling
+3. Vector search scaling
+4. Metadata scaling
+5. Orchestration scaling
+6. Evaluation scaling
+7. Cost scaling
+8. Multi-tenant architecture
+9. Distributed processing
+10. Future migration risk
+11. Vendor lock-in
+12. Databricks scaling limits
+
+Then design:
+- ideal long-term architecture
+- scalable retrieval architecture
+- scalable orchestration model
+- scalable evaluation framework
+- scalable metadata strategy
+- enterprise multi-tenant architecture
+
+At the end provide:
+1. Top scaling risks
+2. Top future bottlenecks
+3. Recommended long-term architecture
+4. 1-year roadmap
+5. 3-year platform vision
+6. What must be redesigned before scale
+
+================================================================================
+PROMPT 10 — COST & PERFORMANCE ENGINEERING AUDIT
+================================================================================
+
+You are reviewing the COST, LATENCY, and PERFORMANCE architecture of an enterprise healthcare contract intelligence platform built on Databricks.
+
+Critique ONLY:
+- runtime efficiency
+- LLM cost efficiency
+- retrieval latency
+- orchestration latency
+- concurrency handling
+- throughput
+- scaling economics
+- compute utilization
+- caching
+- token usage
+
+Analyze:
+1. LLM token economics
+2. Prompt inefficiencies
+3. Retrieval latency
+4. Vector search performance
+5. Parallel execution strategy
+6. Spark inefficiencies
+7. Databricks cluster utilization
+8. Pipeline bottlenecks
+9. Memory inefficiencies
+10. Cost scaling risks
+11. API retry inefficiencies
+12. Caching opportunities
+
+Then design:
+- enterprise-grade performance architecture
+- caching strategy
+- semantic caching
+- retrieval optimization
+- adaptive inference architecture
+- cost-aware orchestration
+- tiered model strategy
+- asynchronous execution strategy
+
+At the end provide:
+1. Biggest cost risks
+2. Biggest latency bottlenecks
+3. Most wasteful patterns
+4. Ideal cost architecture
+5. Ideal performance architecture
+6. Enterprise scaling economics strategy
+
+================================================================================
+PROMPT 11 — HUMAN REVIEW & AI ASSISTED WORKFLOW DESIGN
+================================================================================
+
+You are reviewing the HUMAN-IN-THE-LOOP architecture of a healthcare contract intelligence platform.
+
+Critique ONLY:
+- human review workflows
+- analyst interaction
+- adjudication
+- approval systems
+- exception handling
+- feedback loops
+- operational usability
+
+Analyze:
+1. Human validation workflows
+2. Escalation handling
+3. Low-confidence review flows
+4. Conflict resolution workflows
+5. Amendment dispute workflows
+6. Reviewer audit trails
+7. Analyst productivity
+8. Error correction workflows
+9. Feedback capture systems
+10. Active learning opportunities
+
+Then design:
+- enterprise human review architecture
+- adjudication systems
+- confidence-based routing
+- analyst review queues
+- escalation workflows
+- active learning pipelines
+- reviewer tooling
+- correction feedback systems
+
+At the end provide:
+1. Biggest operational trust gaps
+2. Biggest review workflow risks
+3. Ideal human review architecture
+4. Ideal escalation system
+5. Ideal active learning loop
+6. Enterprise-grade approval workflow
+
+================================================================================
+PROMPT 12 — AI PRODUCT & EXPLAINABILITY EXPERIENCE REVIEW
+================================================================================
+
+You are reviewing the PRODUCT EXPERIENCE and EXPLAINABILITY design of a healthcare contract intelligence platform.
+
+Critique ONLY:
+- explainability
+- evidence presentation
+- analyst trust
+- confidence communication
+- result usability
+- auditability UX
+
+Analyze:
+1. Citation explainability
+2. Confidence score explainability
+3. Amendment lineage visibility
+4. Retrieval transparency
+5. Contradiction visibility
+6. Evidence presentation
+7. Low-confidence handling
+8. Error communication
+9. Analyst verification workflows
+10. Audit-readiness UX
+
+Then design:
+- enterprise-grade explainability UX
+- evidence traceability UX
+- audit-ready workflows
+- confidence communication patterns
+- contradiction surfacing
+- retrieval transparency systems
+
+At the end provide:
+1. Biggest trust UX problems
+2. Biggest explainability gaps
+3. Ideal evidence presentation model
+4. Ideal confidence UX
+5. Ideal auditability UX
+6. Enterprise-grade analyst experience
+
+================================================================================
+PROMPT 13 — KNOWLEDGE GRAPH & SEMANTIC INTELLIGENCE REVIEW
+================================================================================
+
+You are reviewing the KNOWLEDGE REPRESENTATION strategy of a healthcare contract intelligence platform.
+
+Critique ONLY:
+- semantic modeling
+- ontology design
+- entity relationships
+- clause normalization
+- amendment intelligence
+- graph architecture
+
+Analyze:
+1. Contract entity modeling
+2. Clause normalization
+3. Amendment relationships
+4. Provider relationship modeling
+5. Temporal semantic modeling
+6. Knowledge graph opportunities
+7. Ontology strategy
+8. Semantic deduplication
+9. Cross-contract intelligence
+10. Longitudinal intelligence
+
+Critique:
+- limitations of pure chunk-based retrieval
+- semantic fragmentation risks
+- cross-document reasoning weaknesses
+- amendment reasoning weaknesses
+
+Then design:
+- enterprise semantic architecture
+- knowledge graph possibilities
+- ontology-driven retrieval
+- clause canonicalization
+- semantic entity linking
+- amendment relationship graphs
+
+At the end provide:
+1. Biggest semantic intelligence gaps
+2. Limitations of current RAG approach
+3. Ideal ontology strategy
+4. Ideal graph architecture
+5. Long-term semantic intelligence vision
+6. What should evolve beyond vector search
+
+================================================================================
+PROMPT 14 — FINAL ENTERPRISE PLATFORM SYNTHESIS
+================================================================================
+
+Using all previous analyses, design the FINAL enterprise-grade architecture for the healthcare contract intelligence platform.
+
+This should synthesize:
+- trust/validation
+- retrieval
+- data architecture
+- observability
+- governance
+- LLM orchestration
+- testing
+- scalability
+- enterprise operations
+
+Design:
+1. Final target architecture
+2. Platform layers
+3. Service boundaries
+4. Runtime orchestration
+5. Evaluation architecture
+6. Retrieval architecture
+7. Metadata architecture
+8. Governance architecture
+9. CI/CD architecture
+10. Monitoring architecture
+
+Then provide:
+- enterprise maturity assessment
+- critical redesign priorities
+- Phase 2 implementation roadmap
+- ideal team structure
+- recommended engineering standards
+- deployment strategy
+- operating model
+
+Finally answer:
+
+“If this platform were reviewed by a Fortune 100 principal engineering council, what would still concern them most?”
