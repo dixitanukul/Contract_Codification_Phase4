@@ -1,0 +1,357 @@
+
+ENTERPRISE CONTRACT INTELLIGENCE PLATFORM — COMPLETE REVIEW PROMPTS
+===================================================================
+
+PROMPT 1 — TRUST, RELIABILITY & VALIDATION AUDIT
+------------------------------------------------
+Focus:
+- trustworthiness
+- statistical validation
+- hallucination prevention
+- retrieval correctness
+- citation grounding
+- explainability
+- confidence calibration
+
+Analyze:
+- OCR validation
+- extraction accuracy
+- classification accuracy
+- retrieval Recall@K
+- hallucination detection
+- amendment correctness
+- contradiction detection
+- human review workflows
+
+Design:
+- gold dataset strategy
+- benchmarking framework
+- precision/recall methodology
+- confidence calibration
+- trust dashboards
+- executive metrics
+- DS evaluation metrics
+
+================================================================================
+
+PROMPT 2 — RETRIEVAL ARCHITECTURE CRITIQUE
+------------------------------------------
+Focus:
+- retrieval correctness
+- semantic search
+- keyword retrieval
+- hybrid retrieval
+- chunking
+- reranking
+- amendment-aware retrieval
+
+Analyze:
+- chunking quality
+- metadata architecture
+- retrieval fragmentation
+- ranking weaknesses
+- semantic ambiguity
+- hallucination amplification risks
+- retrieval observability
+
+Design:
+- ideal enterprise retrieval architecture
+- retrieval evaluation framework
+- retrieval regression testing
+- Recall@K / MRR / NDCG strategy
+- amendment-aware retrieval model
+
+================================================================================
+
+PROMPT 3 — ENTERPRISE SOFTWARE ARCHITECTURE REVIEW
+--------------------------------------------------
+Focus:
+- software architecture
+- modularity
+- maintainability
+- orchestration
+- deployment
+- CI/CD
+- observability
+
+Critique:
+- notebook-centric architecture
+- tight coupling
+- retry logic
+- concurrency risks
+- dependency management
+- operational complexity
+
+Design:
+- Phase 2 enterprise architecture
+- package structure
+- repo organization
+- orchestration model
+- Databricks-native best practices
+- MLflow + Unity Catalog strategy
+
+================================================================================
+
+PROMPT 4 — LLM SYSTEMS & HALLUCINATION AUDIT
+--------------------------------------------
+Focus:
+- hallucination control
+- grounding
+- prompting
+- reasoning workflows
+- confidence scoring
+- citation verification
+
+Analyze:
+- prompt brittleness
+- unsafe reasoning patterns
+- nondeterministic failures
+- confidence flaws
+- unverifiable reasoning
+
+Design:
+- enterprise orchestration layer
+- deterministic validation
+- prompt versioning
+- fallback architecture
+- hallucination detection system
+
+================================================================================
+
+PROMPT 5 — ENTERPRISE DATA ARCHITECTURE REVIEW
+----------------------------------------------
+Focus:
+- Delta Lake architecture
+- contract lineage
+- amendment modeling
+- temporal modeling
+- extraction lineage
+- auditability
+
+Analyze:
+- schema evolution
+- entity duplication
+- reproducibility
+- amendment supersession risks
+- metadata modeling
+
+Design:
+- bronze/silver/gold strategy
+- amendment graph
+- enterprise contract data model
+- audit-ready lineage architecture
+
+================================================================================
+
+PROMPT 6 — OBSERVABILITY & AI OPERATIONS AUDIT
+----------------------------------------------
+Focus:
+- observability
+- telemetry
+- monitoring
+- alerting
+- runtime reliability
+
+Analyze:
+- hallucination monitoring
+- drift detection
+- SLA/SLO visibility
+- retrieval monitoring
+- evaluation regression monitoring
+
+Design:
+- enterprise observability architecture
+- AI telemetry framework
+- executive dashboards
+- engineering dashboards
+- anomaly detection
+
+================================================================================
+
+PROMPT 7 — AI TESTING & QUALITY ENGINEERING REVIEW
+--------------------------------------------------
+Focus:
+- AI testing
+- regression prevention
+- deployment safety
+- evaluation pipelines
+
+Analyze:
+- OCR regression testing
+- retrieval testing
+- hallucination testing
+- adversarial testing
+- load testing
+
+Design:
+- enterprise AI testing architecture
+- benchmark datasets
+- CI/CD evaluation gates
+- deployment validation
+
+================================================================================
+
+PROMPT 8 — GOVERNANCE, SECURITY & COMPLIANCE AUDIT
+--------------------------------------------------
+Focus:
+- governance
+- compliance
+- auditability
+- RBAC
+- PHI/PII controls
+- lineage
+
+Analyze:
+- model governance
+- prompt governance
+- vendor risk
+- reproducibility
+- approval workflows
+
+Design:
+- enterprise governance architecture
+- audit-ready systems
+- secure deployment model
+- lineage strategy
+
+================================================================================
+
+PROMPT 9 — SCALABILITY & FUTURE ARCHITECTURE REVIEW
+---------------------------------------------------
+Focus:
+- scalability
+- multi-tenant architecture
+- orchestration scaling
+- retrieval scaling
+- vendor lock-in
+- Databricks limitations
+
+Analyze:
+- operational explosion risks
+- scaling bottlenecks
+- future migration risks
+
+Design:
+- long-term enterprise architecture
+- scalable evaluation framework
+- semantic caching
+- distributed orchestration
+
+================================================================================
+
+PROMPT 10 — COST & PERFORMANCE ENGINEERING AUDIT
+------------------------------------------------
+Focus:
+- token economics
+- latency
+- throughput
+- caching
+- compute utilization
+- concurrency
+
+Analyze:
+- LLM inefficiencies
+- retrieval latency
+- Spark inefficiencies
+- cost scaling risks
+- memory inefficiencies
+
+Design:
+- semantic caching
+- adaptive inference
+- asynchronous execution
+- cost-aware orchestration
+- performance dashboards
+
+================================================================================
+
+PROMPT 11 — HUMAN REVIEW & AI ASSISTED WORKFLOW DESIGN
+------------------------------------------------------
+Focus:
+- human review workflows
+- adjudication
+- escalation
+- analyst productivity
+- active learning
+
+Analyze:
+- low-confidence review flows
+- disagreement handling
+- operational trust gaps
+
+Design:
+- enterprise review queues
+- approval systems
+- correction feedback loops
+- human override architecture
+
+================================================================================
+
+PROMPT 12 — AI PRODUCT & EXPLAINABILITY EXPERIENCE REVIEW
+---------------------------------------------------------
+Focus:
+- explainability UX
+- evidence presentation
+- confidence communication
+- auditability UX
+
+Analyze:
+- trust UX gaps
+- retrieval transparency
+- contradiction visibility
+- low-confidence handling
+
+Design:
+- evidence traceability UX
+- enterprise analyst experience
+- audit-ready workflows
+
+================================================================================
+
+PROMPT 13 — KNOWLEDGE GRAPH & SEMANTIC INTELLIGENCE REVIEW
+----------------------------------------------------------
+Focus:
+- ontology design
+- semantic modeling
+- knowledge graphs
+- amendment intelligence
+- entity relationships
+
+Analyze:
+- limitations of chunk-based retrieval
+- semantic fragmentation
+- cross-document reasoning weaknesses
+
+Design:
+- ontology-driven retrieval
+- semantic entity linking
+- amendment relationship graphs
+- long-term semantic intelligence architecture
+
+================================================================================
+
+PROMPT 14 — FINAL ENTERPRISE PLATFORM SYNTHESIS
+-----------------------------------------------
+Using all previous analyses, design the FINAL enterprise-grade architecture.
+
+Synthesize:
+- trust & validation
+- retrieval
+- data architecture
+- governance
+- observability
+- testing
+- scalability
+- LLM orchestration
+
+Provide:
+- final target architecture
+- service boundaries
+- runtime orchestration
+- CI/CD architecture
+- monitoring architecture
+- implementation roadmap
+- enterprise operating model
+
+Finally answer:
+'What would still concern a Fortune 100 principal engineering council?'
