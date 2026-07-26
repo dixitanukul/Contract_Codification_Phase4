@@ -217,3 +217,352 @@ data-model documentation and previous findings, and support every conclusion
 with exact repository evidence, a concrete failure example and a validation
 test.
 ```
+
+
+
+
+
+
+You are the principal architect responsible for creating the final, evidence-based remediation plan for the Contract Intelligence V4 application in the Databricks development environment.
+
+This is an analysis and planning task only.
+
+Do not modify code, data, notebooks, configuration, deployment resources, or documentation. Do not delete dead code. Do not execute write operations against any table.
+
+## Objective
+
+Create one definitive implementation plan that makes the application trustworthy and ready for a controlled development user trial.
+
+Priorities, in order:
+
+1. Data-model correctness and semantic rules
+2. SQL correctness: joins, grain, aggregation, temporal/currentness logic
+3. Grounded answers, durable evidence, citations, and auditability
+4. Honest confidence and statistical validation
+5. User-trial readiness: onboarding, evidence display, feedback, and measurement
+6. Safe, incremental implementation and regression protection
+7. Dead-code cleanup only after behavior is characterized and protected by tests
+
+This is not a production-hardening or enterprise-scale architecture review. Defer production-only concerns unless they directly prevent correct, trustworthy use by the controlled development user group.
+
+## Required inputs
+
+Read these documents completely before reaching conclusions:
+
+1. `1_audit_scoping_and_plan.md`
+2. `2_repository_map_and_liveness.md`
+3. `3_active_request_lifecycle.md`
+4. `4_data_model_audit.md`
+5. `5_sql_architecture_and_correctness.md`
+6. `6_evidence_and_citation_audit.md`
+7. `7_confidence_and_quality_framework.md`
+8. `8_ux_evaluation_framework.md`
+9. `9_regression_evaluation_suite.md`
+10. `10_consolidated_findings_register.md`
+11. `11_implementation_roadmap.md`
+12. `QUALITY_TRUST_EVALUATION_PLAN.md`
+
+Use the consolidated register and roadmap as useful summaries, not as unquestionable truth. Reconcile every material contradiction across the reports.
+
+## Mandatory reconciliation check
+
+The detailed Evidence & Citation Audit identifies a critical issue: session persistence truncates answers and stores no full citation objects; SQL-derived answers generally have no reproducible citation objects. The consolidated register and roadmap may omit this finding.
+
+Explicitly determine whether this issue is valid. If valid, restore it to the final prioritized plan as a pre-user-trial trust and auditability blocker. Do not allow an omission in a summary report to remove a supported detailed finding.
+
+Also reconcile any inconsistency in finding counts, severities, phases, effort estimates, benchmark counts, or acceptance thresholds.
+
+## Standards for the final plan
+
+For every recommendation:
+
+- Cite the originating report, finding ID, and exact active file/function where available.
+- State whether it is confirmed, highly likely, or requires workspace/data validation.
+- Explain the concrete failure mode and user impact.
+- State why it affects correctness, trust, or trial validity.
+- Specify dependencies, implementation order, test method, and acceptance criterion.
+- Avoid generic best practices.
+- Do not treat a successful SQL execution as proof of a correct business answer.
+- Do not treat LLM self-confidence as statistical confidence.
+- Do not recommend a large rewrite unless unavoidable and supported by evidence.
+
+Distinguish clearly between:
+
+- confirmed active-runtime defects
+- confirmed data-model/data-quality defects
+- design gaps
+- documentation drift
+- dead or shadowed code
+- hypotheses requiring validation
+- production-only items to defer
+
+## Required plan structure
+
+Produce one Markdown document titled:
+
+# Contract Intelligence V4 — Final Development Remediation Plan
+
+Include these sections.
+
+## 1. Executive decision
+
+State clearly:
+
+- whether the application is ready for a controlled user trial today
+- the reason for that decision
+- the minimum work required before trial
+- the recommended implementation duration and sequencing
+- the conditions that would cause a hold or no-go decision
+
+## 2. Validated current architecture
+
+Summarize only the active runtime path:
+
+`React frontend → FastAPI → NotebookRuntime → AgentController → routing → SQL/template/retrieval tools → answer synthesis → persistence → frontend`
+
+Identify the active files, active controller definitions, alternative answer routes, and where similar questions can receive different handling.
+
+## 3. Final validated issue register
+
+Create a deduplicated register with:
+
+- final ID
+- source report/finding IDs
+- title
+- category
+- severity
+- confidence of finding
+- active runtime path
+- exact evidence
+- impact
+- recommended action
+- phase
+- test and acceptance criterion
+
+Prioritize issues that can create:
+
+1. confidently wrong answers
+2. wrong provider, contract, rate, count, clause, or date answer
+3. unsupported or irreproducible claims
+4. misleading confidence
+5. user-trial measurement failure
+
+## 4. P0: pre-trial blockers
+
+Identify the smallest mandatory set of items that must be fixed before any controlled user evaluation.
+
+At minimum assess:
+
+- phantom `is_current_effective` column rule
+- DOFR `is_current` contradiction
+- delegation `is_current` coverage loss
+- amendment string sort
+- incorrect provider count aggregation
+- unsafe rate-to-provider join
+- SQL grounding bypass
+- durable evidence/citation persistence and export
+- no-result treated as confirmed absence
+- onboarding, structured feedback, and evaluation instrumentation
+
+For each P0 item, specify the exact change, files, validation query or test, and exit criterion.
+
+## 5. Authoritative semantic rulebook
+
+Create the definitive rulebook to be shared by prompt context, deterministic templates, SQL validation, tests, and documentation.
+
+Include:
+
+- approved and prohibited joins
+- table grain
+- distinct-count rules
+- provider identity and normalization
+- contract and amendment hierarchy
+- current versus historical rate logic
+- amendment ordering
+- DOFR and delegation currentness exceptions
+- clause and absence rules
+- null and zero-result semantics
+- unsupported questions and clarification rules
+
+Identify the rulebook owner and a versioning approach.
+
+## 6. SQL safety and semantic validation design
+
+Define an incremental deterministic SQL validation layer.
+
+It must check:
+
+- allowed tables
+- approved/prohibited joins
+- provider resolution
+- temporal filters
+- currentness logic
+- aggregation and distinctness
+- result grain
+- phantom columns
+- result truncation
+- zero-result interpretation
+
+Specify which checks must reject/retry SQL and which must downgrade the answer to `UNCERTAIN` or `UNABLE TO VALIDATE`.
+
+## 7. Grounding, citations, and durable evidence plan
+
+Define a claim-evidence model for SQL and retrieval answers.
+
+Every answer should support:
+
+- claim text/type
+- source tables/documents
+- query or retrieval identifier
+- result/record identifiers where allowed
+- calculation method
+- currentness/freshness
+- citation links
+- limitations and truncation status
+- hard-failure flags
+
+Specify how this data is returned, persisted, reloaded, exported, and shown in the frontend.
+
+No factual answer should lose its evidence after the initial HTTP response.
+
+## 8. Confidence and statistical validation plan
+
+Design confidence as user-facing trust bands plus technical component diagnostics, not a single opaque score.
+
+Include:
+
+- data quality
+- query quality
+- evidence quality
+- answer quality
+- stability
+
+Include hard-failure overrides such as unapproved joins, missing temporal filters, unsupported numeric claims, phantom columns, unresolved providers, zero rows stated as absence, and unsupported model claims.
+
+Define:
+
+- user-facing trust bands
+- technical metrics
+- Wilson confidence intervals
+- benchmark sampling approach
+- expert review and inter-rater agreement
+- repeatability and paraphrase tests
+- calibration, ECE, Brier score, and reliability diagrams
+- version-comparison significance testing
+
+Do not claim that confidence is calibrated until it has been measured against expert-reviewed benchmark outcomes.
+
+## 9. Benchmark and regression plan
+
+Define the executable benchmark strategy:
+
+- data-model assertions
+- SQL AST/semantic assertions
+- end-to-end answer checks
+- citation checks
+- stability tests
+- human evaluation
+
+Use versioned benchmark definitions with expected tables, joins, filters, temporal rules, aggregation, facts, prohibited facts, evidence, and expected trust band.
+
+Define CI, nightly, pre-release, and trial-gate execution modes.
+
+## 10. Minimum trial user experience
+
+Specify the minimum frontend and evaluation experience:
+
+- onboarding
+- supported/unsupported coverage guide
+- examples
+- no-result versus error versus unsupported-question states
+- evidence panel
+- citations
+- trust-band explanation
+- structured feedback
+- client-side and server-side evaluation events
+- evaluator task protocol
+
+Do not prioritize cosmetic features over answer correctness and inspectable evidence.
+
+## 11. Phased implementation roadmap
+
+Use these phases, but adjust them if evidence requires it:
+
+- Phase 0: reproducible baseline and change control
+- Phase 1: semantic and SQL correctness fixes
+- Phase 2: deterministic SQL and answer safety guards
+- Phase 3: evidence, citations, persistence, and trust bands
+- Phase 4: UX and evaluation instrumentation
+- Phase 5: benchmark, calibration, and expert gate
+- Phase 6: controlled user trial
+- Phase 7: dead-code quarantine and deferred cleanup
+
+For every phase provide:
+
+- objective
+- linked issue IDs
+- implementation tasks
+- exact affected components
+- dependencies
+- owner role
+- validation
+- exit criteria
+- risks
+- items explicitly deferred
+
+## 12. Trial readiness and go/no-go gate
+
+Define a single final gate with measurable criteria.
+
+At minimum include:
+
+- no open P0 defects
+- zero new hard-failure types
+- overall benchmark accuracy
+- per-category lower Wilson confidence bound
+- numeric/rate accuracy
+- temporal correctness
+- no dangerous errors
+- citation precision and durable SQL evidence
+- task completion
+- expert-rated correctness
+- user trust score
+- calibration threshold
+- structured feedback and analytics availability
+
+For each criterion state whether it is blocking, warning-only, or informational.
+
+## 13. First sprint backlog
+
+Provide the first 10–15 work items in exact implementation order. Each item must include:
+
+- owner role
+- files/components
+- estimate
+- dependency
+- test
+- definition of done
+
+The first sprint must focus on the smallest set of changes that eliminates known wrong-answer paths and establishes a reliable baseline.
+
+## 14. Deferred work
+
+List items that should not be attempted before the controlled trial, such as broad production hardening, nonessential UX polish, caching, large rewrites, and optional cleanup.
+
+## 15. Open questions and workspace validation
+
+List only questions that materially block a decision. For each one, provide the read-only Databricks validation query or procedure needed to resolve it.
+
+## Final self-review
+
+Before finalizing, verify:
+
+1. Every P0 issue is supported by active-code or live-data evidence.
+2. The evidence persistence/citation finding was reconciled explicitly.
+3. Data-model, join, grain, temporal, and aggregation rules are represented.
+4. Confidence is not presented as an uncalibrated probability.
+5. The user trial cannot start without benchmark, evidence, and feedback readiness.
+6. Dead-code removal is sequenced after regression protection.
+7. The final plan is incremental, testable, and appropriate for one Databricks development environment.
+
+Return only the final Markdown remediation plan. Do not modify anything.
