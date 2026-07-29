@@ -1,7 +1,11 @@
-Business problem
-What is the proposed solution and what we are trying to deliever here
-Proper Architecture diagram showing step by step stages of complete pipeline
-Stages of data and explaination of delta tables and what do they hold what is their use
-What exactly happens when a question is asked in the notebook - complete stages and process
-How are we doing verification or validation of the data, we really have to nail this
-what is the cost of building and maintaning this system give me porper cost breakup, we have to nail this too
+1. Mention the Project Period*
+Mention start & end date
+
+
+2. Overview of the use case this innovation addresses
+
+3. Technology used
+Highlight what is unique/cutting edge about this
+
+4. The idea*
+What is the innovation here? Are there any solutions available in the market for this problem? If so, what’s the difference that this solution is going to make?
