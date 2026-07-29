@@ -1,11 +1,24 @@
-1. Mention the Project Period*
-Mention start & end date
+**2. Overview of the use case this innovation addresses**
 
+Provider contracts in a health plan contain critical information on reimbursement rates, capitation arrangements, amendments, compliance obligations, delegation responsibilities, renewal conditions, deadlines, and other operational terms. This information is typically spread across lengthy PDFs, multiple contract versions, amendments, spreadsheets, and manually maintained references.
 
-2. Overview of the use case this innovation addresses
+Finding an answer often requires users to locate the correct contract and amendment, interpret complex contractual language, reconcile information from multiple sources, and validate the result manually. The Contract Intelligence Platform addresses this challenge by transforming fragmented provider-contract information into structured, searchable, and traceable intelligence. It is designed to enable users to ask questions in natural language and access relevant contract information, structured data, and source references through a unified interface.
 
-3. Technology used
-Highlight what is unique/cutting edge about this
+**3. Technology used – what is unique/cutting edge**
 
-4. The idea*
-What is the innovation here? Are there any solutions available in the market for this problem? If so, what’s the difference that this solution is going to make?
+The platform combines Generative AI, large language models, OCR, semantic/vector search, natural-language-to-SQL, structured data modelling, Databricks Lakehouse capabilities, React, and FastAPI.
+
+Its key differentiator is that it goes beyond a standard chatbot or document summarisation tool. The platform brings together two complementary intelligence layers:
+
+- Searchable contract text for interpreting detailed contractual language and locating relevant passages.
+- Structured contract data for analysing reimbursement terms, providers, amendments, compliance requirements, deadlines, risks, and financial considerations.
+
+Based on the user’s question, the platform can retrieve contract passages, query structured data, compare contract information, trace amendments, and provide source references. It also incorporates a validation and confidence framework designed to assess evidence grounding, numerical support, citation relevance, and consistency of responses. This focus on trustworthy, verifiable AI is especially important for complex and high-value contractual decisions.
+
+**4. The idea – innovation and market differentiation**
+
+The innovation is the creation of an AI-assisted contract intelligence capability specifically designed for the complexity of provider contracts in the healthcare ecosystem. Instead of treating contracts only as documents to search or summarise, the platform converts them into connected business intelligence that can be queried, analysed, compared, and verified.
+
+Contract lifecycle management and document-AI solutions are available in the market; however, this platform is differentiated by its provider-contract focus and its integration of domain-specific structured data with AI-based document understanding. It is designed to support questions across financial, legal, compliance, operational, and network-strategy areas from the same platform.
+
+The solution combines natural-language interaction with source traceability and validation controls. This means users can not only receive an answer but also review the relevant source information supporting it. The platform therefore creates a foundation for making contract information more accessible, consistent, and actionable, while reducing dependence on manual document-by-document review.
